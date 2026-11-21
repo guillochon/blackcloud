@@ -1,0 +1,137 @@
+{
+  "energetics": {
+    "T_out_K": 177.24614764312483,
+    "L_star_Lsun": 2000.0,
+    "landauer_bits_per_s": 4.490962792995927e+50,
+    "entropy_bound_bits_per_s": 5.6088999838673605e+50,
+    "kTln2_J": 1.6962331578165247e-21,
+    "areal_mass_kg_m2": 0.00043874658515656784,
+    "thermal_time_constant_upper_s": 0.36070975220849016,
+    "mira_half_cycle_excess_J": 3.3520374183352123e+36,
+    "buffer_dT_lower_K": 270279300.39087254,
+    "light_crossing_radius_hr": 30.494736789987336,
+    "mira_period_d": 400.0
+  },
+  "sed_width_dex": {
+    "Engineered shell (single T)": 0.5425856464116023,
+    "Natural dust envelope, r_out/r_in=5 (T_in=179 K)": 0.5083770942735679,
+    "Natural dust envelope, r_out/r_in=30 (T_in=192 K)": 0.5720430107526884,
+    "Natural dust envelope, r_out/r_in=300 (T_in=192 K)": 0.5805951487871965
+  },
+  "submm_index_450_850": {
+    "Engineered shell (single T)": 1.9317301161546738,
+    "Natural dust envelope, r_out/r_in=5 (T_in=179 K)": 2.8996480621970395,
+    "Natural dust envelope, r_out/r_in=30 (T_in=192 K)": 2.833414519486452,
+    "Natural dust envelope, r_out/r_in=300 (T_in=192 K)": 2.6055035677158953
+  },
+  "band_response_dlnF_dlnL": {
+    "thermostat": {
+      "W3 12um": 1.0,
+      "W4 22um": 1.0,
+      "MIRI 15um": 1.0,
+      "70um": 1.0,
+      "850um": 1.0
+    },
+    "passive": {
+      "W3 12um": 1.693168961517389,
+      "W4 22um": 0.9461098744946816,
+      "MIRI 15um": 1.3590384905718256,
+      "70um": 0.4223713414265887,
+      "850um": 0.2621279849427624
+    },
+    "natural": {
+      "W3 12um": 1.493103901376587,
+      "W4 22um": 0.962988873591817,
+      "MIRI 15um": 1.2548079103650882,
+      "70um": 0.5114627774168946,
+      "850um": 0.22356619802331162
+    }
+  },
+  "network": {
+    "fresnel_hop_m": 133425.63807926083,
+    "mesh_speed_over_c": 0.30798722234089104,
+    "mesh_hops_antipode": 774923224.927836,
+    "mesh_energy_per_bit_antipode_J": 3.943351407021347e-12,
+    "mesh_latency_antipode_d": 12.960770519599542,
+    "backbone_energy_per_bit_J": 1.3210315284808495e-14,
+    "backbone_latency_antipode_d": 2.624561399165611,
+    "global_bitrate_mesh_bits_s": 1.931788271883719e+39,
+    "global_bitrate_backbone_bits_s": 5.7664937102297415e+41,
+    "local_compute_bits_s": 4.446053165065967e+50,
+    "global_to_local_ratio_backbone": 1.296991622938495e-09,
+    "mesh_max_arrival_d": 13.169208358805815,
+    "mesh_median_arrival_d": 6.7170130563119645,
+    "backbone_max_arrival_d": 6.645717200174925,
+    "backbone_median_arrival_d": 4.779896594729989,
+    "backbone_covering_radius_deg": 31.0904196101974,
+    "backbone_random_max_arrival_d": 7.846211251191153,
+    "backbone_random_median_arrival_d": 4.611663602305507,
+    "backbone_random_covering_radius_deg": 54.32892953963239,
+    "source_lon_lat_deg": [
+      -56.38563990560392,
+      86.43971872155701
+    ]
+  },
+  "broadcast_observed_fwhm_d": {
+    "mesh_0deg": 11.69999999999975,
+    "mesh_60deg": 10.679999999999772,
+    "mesh_120deg": 7.97999999999983,
+    "mesh_180deg": 5.919999999999874,
+    "backbone_0deg": 3.999999999999915,
+    "backbone_60deg": 3.8999999999999164,
+    "backbone_120deg": 2.6599999999999433,
+    "backbone_180deg": 1.3199999999999716
+  },
+  "time_domain": {
+    "2R_over_c_d": 2.541228065832278,
+    "amplitude_retained_at_1d": 0.1242090997317663,
+    "amplitude_retained_at_mira": 0.999933609315169
+  },
+  "comm_leak": {
+    "P_leak_W": 2.3286520454142254e+23,
+    "P_leak_over_L": 3.0568884724224907e-07,
+    "P_leak_over_P_comm": 3.05688847242249e-05,
+    "band_edge_smear_MHz": 3.5024229995805967,
+    "excess_Tb_K": 177.24614764312483
+  },
+  "detectability": {
+    "0.5 kpc": {
+      "angular_diameter_arcsec": 0.8799944331575734,
+      "F_12um_Jy": 379.7345723754025,
+      "F_22um_Jy": 1366.4578225053158,
+      "F_850um_Jy": 9.228870866528117,
+      "comm_excess_Jy": 0.7784797606270004,
+      "comm_excess_over_continuum": 1.0136613795420948
+    },
+    "1.0 kpc": {
+      "angular_diameter_arcsec": 0.4399972165787867,
+      "F_12um_Jy": 94.93364309385062,
+      "F_22um_Jy": 341.61445562632895,
+      "F_850um_Jy": 2.3072177166320293,
+      "comm_excess_Jy": 0.1946199401567501,
+      "comm_excess_over_continuum": 1.0136613795420948
+    },
+    "3.0 kpc": {
+      "angular_diameter_arcsec": 0.14666573885959555,
+      "F_12um_Jy": 10.548182565983401,
+      "F_22um_Jy": 37.95716173625877,
+      "F_850um_Jy": 0.25635752407022544,
+      "comm_excess_Jy": 0.021624437795194452,
+      "comm_excess_over_continuum": 1.0136613795420948
+    },
+    "8.0 kpc": {
+      "angular_diameter_arcsec": 0.05499965207234834,
+      "F_12um_Jy": 1.483338173341416,
+      "F_22um_Jy": 5.33772586916139,
+      "F_850um_Jy": 0.03605027682237546,
+      "comm_excess_Jy": 0.0030409365649492204,
+      "comm_excess_over_continuum": 1.0136613795420948
+    }
+  },
+  "sensitivity_reference_Jy": {
+    "WISE W3 12um (5sig, AllWISE)": 0.0007,
+    "WISE W4 22um (5sig, AllWISE)": 0.005,
+    "JWST MIRI F2100W (10sig, 10ks)": 2e-05,
+    "ALMA Band 7 continuum (1 hr rms)": 5e-05
+  }
+}

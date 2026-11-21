@@ -1,0 +1,25 @@
+# secrets
+.env
+
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.spl
+paper/submit.pdf
+paper/preprint.pdf
+
+# ADS comparison dump and bibcode cache (not the bibliography)
+paper/ads_export_raw.bib
+paper/bibcodes.json
+
+# python
+__pycache__/
+*.pyc
+.venv/

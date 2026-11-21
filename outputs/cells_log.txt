@@ -1,0 +1,35 @@
+workloads
+  node {'P_W': '0.0305', 'bitops_s': '1.8e+19', 'link_bw_bits_s': '3.6e+14', 'bw_per_op': '2e-05', 'neighbor_latency_s': '1.61e-06'}
+  cell {'P_W': '43.1', 'bitops_s': '2.54e+22', 'sync_s': '1.95e-05', 'bisection_bits_s': '1.27e+16', 'ops_per_sync': '4.96e+17'}
+  cloud {'bitops_s': '4.49e+50', 'bisection_bits_s': '6.2e+33', 'superstep_backbone_d': '5.25', 'superstep_mesh_d': '25.7', 'supersteps_agb_backbone': '6.96e+05', 'supersteps_agb_mesh': '1.42e+05', 'supersteps_rebuild_backbone': '2.09e+04', 'ops_per_superstep': '2.04e+56', 'global_bits_per_superstep': '2.81e+39', 'global_bits_per_cell_per_superstep': '1.59e+11', 'ops_lifetime': '1.42e+62', 'energy_lifetime_J': '2.4e+41', 'key_bits_searchable': '193', 'landauer_J_count_2_256': '1.96e+56', 'H_superstep_backbone': '0.657', 'H_superstep_mesh': '0.984', 'H_cell_clock': '1.27e-11'}
+  stencil {'bits_per_halo_point': '64', 'bitops_per_update': '3e+05', 'L_bandwidth': '64', 'L_latency': '458', 'points_per_node': '9.63e+07', 'step_s': '1.61e-06', 'updates_per_s': '6.23e+05', 'halo_time_s': '2.24e-07', 'points_total': '2.4e+39', 'grid_signal_speed_m_s': '2.47e+05', 'grid_crossing_yr': '13.3'}
+terrestrial comparison
+  bitops_per_flop 30000.0
+  landauer_bitops_per_J_177K 5.895415942035053e+20
+  landauer_bitops_per_J_300K 3.4831325482652566e+20
+  LineShine (TOP500 #1, 2026) {'P_W': '4.22e+07', 'flops': '2.2e+18', 'bitops_s': '6.6e+22', 'bitops_per_J': '1.56e+15', 'below_landauer_300K': '2.23e+05'}
+  El Capitan (TOP500 #2, 2026) {'P_W': '2.97e+07', 'flops': '1.81e+18', 'bitops_s': '5.43e+22', 'bitops_per_J': '1.83e+15', 'below_landauer_300K': '1.91e+05'}
+  Fugaku (2020-21 #1) {'P_W': '2.99e+07', 'flops': '4.42e+17', 'bitops_s': '1.33e+22', 'bitops_per_J': '4.44e+14', 'below_landauer_300K': '7.85e+05'}
+  mining ASIC (Laughlin 2021) {'bitops_per_J': '5e+13', 'below_landauer_300K': '6.97e+06'}
+  cell beta=1e-08 {'P_W': '1.02e+05', 'bitops_s': '6.02e+25', 'flop_equiv': '2.01e+21', 'nodes': '1.63e+05', 'l_cell_m': '1.82e+05', 'f_cell_Hz': '1.26e+03', 'el_capitans': '1.11e+03', 'power_ratio_vs_el_capitan_same_ops': '3.22e+05'}
+  cell beta=1e-06 {'P_W': '43.1', 'bitops_s': '2.54e+22', 'flop_equiv': '8.48e+17', 'nodes': '1.41e+03', 'l_cell_m': '1.82e+03', 'f_cell_Hz': '5.13e+04', 'el_capitans': '0.469', 'power_ratio_vs_el_capitan_same_ops': '3.22e+05', 'mass_kg': '0.000338', 'oklo': '7.52e+22'}
+  cell beta=1e-05 {'P_W': '4.31', 'bitops_s': '2.54e+21', 'flop_equiv': '8.48e+16', 'nodes': '1.41e+03', 'l_cell_m': '182', 'f_cell_Hz': '7.77e+04', 'el_capitans': '0.0469', 'power_ratio_vs_el_capitan_same_ops': '3.22e+05'}
+  cell beta=1e-04 {'P_W': '0.13', 'bitops_s': '7.68e+19', 'flop_equiv': '2.56e+15', 'nodes': '1.41e+03', 'l_cell_m': '1.66', 'f_cell_Hz': '8.24e+04', 'el_capitans': '0.00141', 'power_ratio_vs_el_capitan_same_ops': '3.22e+05'}
+  cell beta=1e-03 {'P_W': '2.75e-05', 'bitops_s': '1.62e+16', 'flop_equiv': '5.4e+11', 'nodes': '14.9', 'l_cell_m': '0.0007', 'f_cell_Hz': '2.54e+05', 'el_capitans': '2.98e-07', 'power_ratio_vs_el_capitan_same_ops': '3.22e+05'}
+  node beta=1e-06 {'P_W': '0.0305', 'bitops_s': '1.8e+19', 'flop_equiv': '6e+14'}
+  whole cloud {'P_W': '7.62e+29', 'bitops_s': '4.49e+50', 'el_capitans': '8.28e+27'}
+lattices
+  sc {'z': 6.0, 'kappa': 1.0, 'stretch_mean': 1.486, 'stretch_max': 1.732, 'sigma_hat_mean': 1.502, 'sigma_hat_min': 1.029, 'd_nn': 1.0, 'n': 1.0, 'shape': 'cube', 'inspiration': '3D torus (Blue Gene/L, Cray T3E)'}
+  hex {'z': 8.0, 'kappa': 1.049, 'stretch_mean': 1.354, 'stretch_max': 1.528, 'sigma_hat_mean': 2.102, 'sigma_hat_min': 1.1, 'd_nn': 1.0, 'n': 1.155, 'shape': 'hexagonal prism', 'inspiration': 'stacked 2D meshes (wafer-scale, on-chip NoC layers)'}
+  bcc {'z': 8.0, 'kappa': 1.091, 'stretch_mean': 1.426, 'stretch_max': 1.732, 'sigma_hat_mean': 2.18, 'sigma_hat_min': 1.79, 'd_nn': 0.866, 'n': 2.0, 'shape': 'truncated octahedron', 'inspiration': '8-port mesh with diagonal links'}
+  fcc {'z': 12.0, 'kappa': 1.122, 'stretch_mean': 1.213, 'stretch_max': 1.414, 'sigma_hat_mean': 3.367, 'sigma_hat_min': 2.795, 'd_nn': 0.707, 'n': 4.0, 'shape': 'rhombic dodecahedron', 'inspiration': 'high-radix mesh (Tofu 6D mesh/torus, 10 ports)'}
+optima by beta
+  beta=1e-08: lam=1um dR=22AU d=3.74e+03m a=0.0611m l=1.82e+05m l/d=48.6 Nz=8.81e+08 f=1.26e+03Hz eta=3.3e-06 P_node=0.627W leak/L=4e-07
+  beta=1e-06: lam=1um dR=0.052AU d=182m a=0.0135m l=1.82e+03m l/d=10 Nz=4.28e+07 f=5.13e+04Hz eta=0.00033 P_node=0.0305W leak/L=4e-05
+  beta=1e-05: lam=1um dR=0.00052AU d=18.2m a=0.00426m l=182m l/d=10 Nz=4.28e+06 f=7.77e+04Hz eta=0.0033 P_node=0.00305W leak/L=0.0004
+  beta=1e-04: lam=3.31um dR=1.3e-08AU d=0.166m a=0.000741m l=1.66m l/d=10 Nz=1.18e+04 f=8.24e+04Hz eta=0.01 P_node=9.21e-05W leak/L=0.0012
+  beta=1e-03: lam=50.9um dR=1.44e-15AU d=0.000216m a=0.000105m l=0.0007m l/d=3.24 Nz=1 f=2.54e+05Hz eta=0.01 P_node=1.85e-06W leak/L=0.0012
+fiducial global bisection opt/submm/compute: 6.2e+33 6.2e+27 4.49e+50 n_cells 1.77e+28
+LA submm: l_cell 0.00182 d 7.03e+04 beta_node 5.17e-14
+leak {'P_leak_W': '3.04e+25', 'P_starlight_in_band_W': '2.43e+26', 'P_thermal_in_band_W': '2.84', 'leak_over_starlight': '0.125', 'F_leak_1kpc_Jy': '0.00847', 'F_star_1kpc_Jy': '0.0677'}
+opt E_cell 0.000841 nodes/cell 1.41e+03 tau_cell 1.95e-05 v/c 0.377

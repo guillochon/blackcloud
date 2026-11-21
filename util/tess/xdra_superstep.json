@@ -1,0 +1,74 @@
+{
+ "backbone": {
+  "period_d": 9.376211053338622,
+  "fwhm_d": 2.8,
+  "search_1_per_d": [
+   0.085,
+   0.135
+  ],
+  "real_peak_power": 0.06448797272210043,
+  "injections": {
+   "300": {
+    "broadband": 0.0,
+    "line": 0.0,
+    "surviving_variance": 0.8436324249967149
+   },
+   "1000": {
+    "broadband": 0.0,
+    "line": 0.45,
+    "surviving_variance": 0.8332709686647669
+   },
+   "2000": {
+    "broadband": 0.15,
+    "line": 0.9,
+    "surviving_variance": 0.8235123068176038
+   },
+   "4000": {
+    "broadband": 1.0,
+    "line": 1.0,
+    "surviving_variance": 0.8266064057659803
+   },
+   "8000": {
+    "broadband": 1.0,
+    "line": 1.0,
+    "surviving_variance": 0.8287366667359808
+   }
+  }
+ },
+ "mesh": {
+  "period_d": 25.663036903526613,
+  "fwhm_d": 11.0,
+  "search_1_per_d": [
+   0.025,
+   0.06
+  ],
+  "real_peak_power": 0.05239583305668393,
+  "injections": {
+   "300": {
+    "broadband": 0.0,
+    "line": 0.0,
+    "surviving_variance": 0.22573277809454567
+   },
+   "1000": {
+    "broadband": 0.0,
+    "line": 0.0,
+    "surviving_variance": 0.21107569476023627
+   },
+   "2000": {
+    "broadband": 0.0,
+    "line": 0.2,
+    "surviving_variance": 0.22835559460806415
+   },
+   "4000": {
+    "broadband": 0.3,
+    "line": 0.4,
+    "surviving_variance": 0.23541476927567578
+   },
+   "8000": {
+    "broadband": 0.7,
+    "line": 0.7,
+    "surviving_variance": 0.20174290372760706
+   }
+  }
+ }
+}

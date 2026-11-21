@@ -1,0 +1,63 @@
+{
+  "period_d": 400.0,
+  "bolometric_semi_amplitude": 0.4,
+  "natural": {
+    "r_in_AU": 179.89418870418936,
+    "r_out_AU": 5396.82566112568,
+    "emission_weighted_radius_AU": 2265.026757758729,
+    "dlnF_dlnL": 0.223584580038383,
+    "semi_amplitude_no_light_travel": 0.09443909674657563,
+    "light_travel_amplitude_factor": 0.9798822542945894,
+    "semi_amplitude": 0.09253919501357936,
+    "lag_d": 13.275086102716873
+  },
+  "passive_continuum": {
+    "dlnF_dlnL": 0.2621273160216064,
+    "semi_amplitude": 0.11058836230565479,
+    "lag_d": 1.270614032916139
+  },
+  "thermostat_continuum": {
+    "dlnF_dlnL": 1.0,
+    "semi_amplitude": 0.3999734437260675,
+    "lag_d": 1.270614032916139
+  },
+  "passive_continuum_band": {
+    "nu_GHz": 100.0,
+    "dlnF_dlnL": 0.2533998628654282,
+    "semi_amplitude": 0.10693497543267237
+  },
+  "plateau": {
+    "passive, traffic follows power": {
+      "plateau_dlnF_dlnL": 1.0,
+      "plateau_semi_amplitude": 0.39999999999999997,
+      "continuum_semi_amplitude": 0.1069420753902948,
+      "ratio_dln_dlnL": 0.7466001371345719,
+      "ratio_semi_amplitude": 0.3061542322021951,
+      "ratio_sign": "in phase"
+    },
+    "passive, mind traffic held constant": {
+      "plateau_dlnF_dlnL": 0.25,
+      "plateau_semi_amplitude": 0.10551798144847532,
+      "continuum_semi_amplitude": 0.1069420753902948,
+      "ratio_dln_dlnL": -0.003399862865428205,
+      "ratio_semi_amplitude": 0.0014403472696941477,
+      "ratio_sign": "anti-phase"
+    },
+    "thermostat, traffic follows power": {
+      "plateau_dlnF_dlnL": 1.0,
+      "plateau_semi_amplitude": 0.39999999999999997,
+      "continuum_semi_amplitude": 0.39999999999999997,
+      "ratio_dln_dlnL": 0.0,
+      "ratio_semi_amplitude": 0.0,
+      "ratio_sign": "in phase"
+    },
+    "thermostat, mind traffic held constant": {
+      "plateau_dlnF_dlnL": 0.0,
+      "plateau_semi_amplitude": 0.0,
+      "continuum_semi_amplitude": 0.39999999999999997,
+      "ratio_dln_dlnL": -1.0,
+      "ratio_semi_amplitude": 0.39999999999999997,
+      "ratio_sign": "anti-phase"
+    }
+  }
+}

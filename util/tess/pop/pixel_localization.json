@@ -1,0 +1,217 @@
+[
+ {
+  "Name": "NGCA-V6",
+  "tic": 11032792,
+  "sector": 81,
+  "f": 0.2670000000000002,
+  "P_d": 3.7453183520599227,
+  "sap_amp_ppm": 2800.4047017613466,
+  "aperture_amp_ppm": 932.7398445084208,
+  "aperture_amp_nsigma": 3.2760188319581696,
+  "net_over_gross": 0.7188615350540846,
+  "peak_pixel_nsigma": 9.621065387166134,
+  "peak_pixel_dist_px": 2.4843782112287136,
+  "psf_sigma_px": 0.5827488404752367,
+  "centroid_offset_px": [
+   1.9511516899159256,
+   -1.582971620570734
+  ],
+  "centroid_sigma_px": [
+   0.04947450900409001,
+   0.11647532367397567
+  ],
+  "centroid_offset_arcsec": 52.76306759704179,
+  "centroid_offset_nsigma": 41.71357672281345,
+  "gaia_near_line": [
+   {
+    "Source": 1828417919242631936,
+    "Gmag": 15.477,
+    "BP-RP": 2.077,
+    "dist_line_px": 0.154,
+    "dist_target_px": 2.36,
+    "frac_amp_needed": 0.035
+   },
+   {
+    "Source": 1828418292882589312,
+    "Gmag": 17.784,
+    "BP-RP": 1.968,
+    "dist_line_px": 0.732,
+    "dist_target_px": 1.965,
+    "frac_amp_needed": 0.309
+   },
+   {
+    "Source": 1828417987962112256,
+    "Gmag": 16.553,
+    "BP-RP": 2.241,
+    "dist_line_px": 0.992,
+    "dist_target_px": 3.395,
+    "frac_amp_needed": 0.089
+   },
+   {
+    "Source": 1828418365919231872,
+    "Gmag": 15.682,
+    "BP-RP": 4.006,
+    "dist_line_px": 1.101,
+    "dist_target_px": 2.791,
+    "frac_amp_needed": 0.02
+   },
+   {
+    "Source": 1828417987962112384,
+    "Gmag": 14.085,
+    "BP-RP": 2.296,
+    "dist_line_px": 1.142,
+    "dist_target_px": 3.463,
+    "frac_amp_needed": 0.009
+   },
+   {
+    "Source": 1828418292882582656,
+    "Gmag": 17.725,
+    "BP-RP": 2.45,
+    "dist_line_px": 1.164,
+    "dist_target_px": 1.354,
+    "frac_amp_needed": 0.241
+   },
+   {
+    "Source": 1828418292887154688,
+    "Gmag": 18.136,
+    "BP-RP": 3.909,
+    "dist_line_px": 1.232,
+    "dist_target_px": 1.566,
+    "frac_amp_needed": 0.198
+   },
+   {
+    "Source": 1828417983649500416,
+    "Gmag": 17.711,
+    "BP-RP": 2.528,
+    "dist_line_px": 1.354,
+    "dist_target_px": 3.571,
+    "frac_amp_needed": 0.231
+   },
+   {
+    "Source": 1828417914930029568,
+    "Gmag": 18.572,
+    "BP-RP": 3.748,
+    "dist_line_px": 1.363,
+    "dist_target_px": 1.722,
+    "frac_amp_needed": 0.315
+   }
+  ]
+ },
+ {
+  "Name": "V0621 Her",
+  "tic": 156296547,
+  "sector": 79,
+  "f": 0.2350000000000001,
+  "P_d": 4.255319148936168,
+  "sap_amp_ppm": 1290.6144241491486,
+  "aperture_amp_ppm": 1197.714161385669,
+  "aperture_amp_nsigma": 3.780948076880753,
+  "net_over_gross": -0.004268930251586295,
+  "peak_pixel_nsigma": 24.04010266859931,
+  "peak_pixel_dist_px": 6.081352692533065,
+  "psf_sigma_px": 0.8084407957810474,
+  "centroid_offset_px": [
+   -4.336564186999857,
+   2.6575817447029015
+  ],
+  "centroid_sigma_px": [
+   0.09821132944071516,
+   0.02407123243572814
+  ],
+  "centroid_offset_arcsec": 106.80834044159099,
+  "centroid_offset_nsigma": 118.90728380983738,
+  "gaia_near_line": [
+   {
+    "Source": 4547248452286993536,
+    "Gmag": 18.002,
+    "BP-RP": 0.908,
+    "dist_line_px": 0.858,
+    "dist_target_px": 5.857,
+    "frac_amp_needed": 0.855
+   },
+   {
+    "Source": 4547248147346984960,
+    "Gmag": 13.635,
+    "BP-RP": 0.985,
+    "dist_line_px": 1.052,
+    "dist_target_px": 4.373,
+    "frac_amp_needed": 0.015
+   }
+  ]
+ },
+ {
+  "Name": "CGCS 6098",
+  "tic": 417728675,
+  "sector": 59,
+  "f": 0.2495000000000002,
+  "P_d": 4.008016032064125,
+  "sap_amp_ppm": 1728.0271356622438,
+  "aperture_amp_ppm": 1177.9554843391372,
+  "aperture_amp_nsigma": 0.9088991954997622,
+  "net_over_gross": 0.88964068337695,
+  "peak_pixel_nsigma": 1.8829201533583952,
+  "peak_pixel_dist_px": 3.1425922156605948,
+  "psf_sigma_px": 0.5564906021348973,
+  "centroid_offset_px": [
+   -4.89368919229177,
+   0.7632920746234477
+  ],
+  "centroid_sigma_px": [
+   0.8820028369792441,
+   0.885912270608106
+  ],
+  "centroid_offset_arcsec": 104.01003142752089,
+  "centroid_offset_nsigma": 5.614880647576785,
+  "gaia_near_line": [
+   {
+    "Source": 485457370328511488,
+    "Gmag": 18.742,
+    "BP-RP": 2.562,
+    "dist_line_px": 0.748,
+    "dist_target_px": 4.834,
+    "frac_amp_needed": 0.057
+   },
+   {
+    "Source": 485457164170082688,
+    "Gmag": 17.887,
+    "BP-RP": 0.931,
+    "dist_line_px": 1.226,
+    "dist_target_px": 6.13,
+    "frac_amp_needed": 0.049
+   },
+   {
+    "Source": 485457168469211264,
+    "Gmag": 17.156,
+    "BP-RP": 1.762,
+    "dist_line_px": 1.458,
+    "dist_target_px": 5.88,
+    "frac_amp_needed": 0.018
+   }
+  ]
+ },
+ {
+  "Name": "CGCS 6098",
+  "tic": 417728675,
+  "sector": 60,
+  "f": 0.2495000000000002,
+  "P_d": 4.008016032064125,
+  "sap_amp_ppm": 1728.0271356622438,
+  "aperture_amp_ppm": 1688.554500214549,
+  "aperture_amp_nsigma": 0.642445323344094,
+  "net_over_gross": 0.7594641222121977,
+  "peak_pixel_nsigma": 1.858289502495108,
+  "peak_pixel_dist_px": 2.510972473312386,
+  "psf_sigma_px": 1.3228271325761902,
+  "centroid_offset_px": [
+   -2.3513663743321658,
+   1.4247981824006137
+  ],
+  "centroid_sigma_px": [
+   1.271377740235872,
+   0.9103947408293911
+  ],
+  "centroid_offset_arcsec": 57.73653432557439,
+  "centroid_offset_nsigma": 2.4227760482375107,
+  "gaia_near_line": []
+ }
+]
