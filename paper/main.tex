@@ -128,10 +128,6 @@ Terrestrial supercomputers offer a useful template. Their interconnects are mesh
 
 Section~\ref{sec:model} describes the toy model. Section~\ref{sec:cells} derives the computing cell and the optimal three-dimensional structure. Section~\ref{sec:workloads} describes the algorithms suited to each level of the resulting hierarchy. Section~\ref{sec:results} presents propagation, thermal and leakage results, and Section~\ref{sec:discussion} discusses observing strategy and limitations.
 
-%======================================================================
-\section{Model}\label{sec:model}
-%======================================================================
-
 \begin{widetable}
 \centering
 \caption{Fiducial parameters. Every quantity is a free parameter of the accompanying code. The stellar and wind values lie within the ranges reviewed by \citet{HofnerOlofsson2018}, and the pulsation amplitude is derived in \S\ref{sec:host}. The remaining entries are design choices.}
@@ -156,11 +152,17 @@ $m$ & link margin above the Shannon limit & 2 \\
 \end{tabular}}
 \end{widetable}
 
+%======================================================================
+\section{Model}\label{sec:model}
+%======================================================================
+
 \subsection{Host and structure}\label{sec:host}
 The host is a Mira-type AGB star \citep{HofnerOlofsson2018} with luminosity
+\iftwocol\predisplaypenalty=0 \fi   % preprint: let the column break before this display, so the section can start at the foot of a column
 \begin{equation}
 L_\ast(t)=\bar L_\ast\left[1+\delta L\sin(2\pi t/P_{\rm Mira})\right].
 \end{equation}
+\iftwocol\predisplaypenalty=10000 \fi
 Miras are defined by visual amplitudes of 2.5 to 11\,mag \citep{Samus2017}. The 1.25\,$\mu$m band lies close to the flux peak of a 2800\,K photosphere (1.03\,$\mu$m by Wien's law), so its amplitude is a proxy for the bolometric amplitude. At that wavelength, Mira light curves vary by 0.20\,mag per magnitude of visual variation \citep{Smith2002}. A visual amplitude of 2.5 to 5\,mag therefore implies 0.5 to 1.0\,mag, or a luminosity semi-amplitude $(10^{0.4\Delta m}-1)/(10^{0.4\Delta m}+1)$ of 0.23 to 0.43. We adopt $\delta L=0.4$. We treat the computer as a spherically symmetric shell of outer radius $R$ that intercepts a fraction $f_{\rm c}$ of the starlight. In radiative equilibrium its outer surface has the temperature
 \begin{equation}
 T = \left(\frac{f_{\rm c}L_\ast}{4\pi\sigma R^2}\right)^{1/4} = 177\,{\rm K}\left(\frac{L_\ast}{2000\,\Lsun}\right)^{1/4}\left(\frac{R}{220\,{\rm AU}}\right)^{-1/2}.
